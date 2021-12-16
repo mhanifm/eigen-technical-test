@@ -19,3 +19,7 @@ export interface Source {
     id: string | null
     name: string | null
 }
+
+export interface Search {
+    searchText: any
+}
